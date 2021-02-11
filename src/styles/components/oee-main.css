@@ -1,0 +1,26 @@
+.Oee__main-content main {
+	background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  
+	background: linear-gradient(to right, #4CA1AF, #2C3E50);
+
+}
+
+.Oee__main-content {
+  display: flex;
+}
+
+.Oee__main-content main {
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .Oee__main-content aside {
+    height: auto;
+	}
+	
+
+	.Oee__main-content {
+		display: flex;
+
+		min-height: 100vh;
+	}
+}

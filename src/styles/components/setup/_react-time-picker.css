@@ -1,0 +1,10 @@
+/* TimePicker */
+
+.react-time-picker__wrapper {
+  border: 0px solid gray !important;
+  display: flex;
+}
+
+.react-time-picker input:focus {
+  outline: none;
+}
